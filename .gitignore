@@ -1,0 +1,9 @@
+# virtual Environment
+venv/
+
+#python cache
+__pycache__/
+*.pyc
+
+#Deckor
+.dockerignore
