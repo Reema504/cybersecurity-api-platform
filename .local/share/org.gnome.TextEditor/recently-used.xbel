@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/reema/htmlcov/coverage_html_cb_6fb7b396.js" added="2025-10-22T02:53:42.708921Z" modified="2025-10-22T02:53:44.085992Z" visited="2025-10-22T05:53:41.449131+03">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2025-10-22T02:53:44.085988Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

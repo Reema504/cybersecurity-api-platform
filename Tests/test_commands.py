@@ -118,3 +118,32 @@ def test_ping_command_injection_prevention(mocker):
     # Clean up the mock (optional, but good practice for security tests)
     mock_db_session.return_value.add.assert_called_once()
     mock_db_session.return_value.commit.assert_called_once()
+# (Add this function to the end of your test_commands.py file)
+
+def test_run_nmap_success(mocker):
+    """
+    Test: Ensures the Nmap task runs and saves results correctly.
+    """
+    # 1. Arrange:
+    # We must patch the Nmap task, assuming it uses subprocess.run
+    mock_run = mocker.patch(SUBPROCESS_PATH)
+    mock_run.return_value = subprocess.CompletedProcess(
+        args=["nmap..."], returncode=0, stdout="Nmap scan finished", stderr=""
+    )
+    mock_db_session = mocker.patch(DB_PATH, return_value=mocker.Mock())
+
+    # 2. Act:
+    # Assuming your worker function for Nmap is named task_run_nmap
+    from cyber_platform.celery_worker import task_run_nmap
+    result = task_run_nmap(hostname="localhost")
+
+    # 3. Assert:
+    # Check the result structure (assuming it returns a dict like ping)
+    assert result['hostname'] == "localhost"
+    assert "Nmap scan finished" in result['output']
+    assert result.get('error') is None
+
+    # Check that it tried to save to the database
+    mock_db_session.return_value.add.assert_called_once()
+    mock_db_session.return_value.commit.assert_called_once()
+

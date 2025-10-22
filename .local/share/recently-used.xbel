@@ -33,4 +33,24 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///home/reema/htmlcov/coverage_html_cb_6fb7b396.js" added="2025-10-22T02:53:39.556342Z" modified="2025-10-22T02:53:39.556397Z" visited="2025-10-22T02:53:39.556342Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/javascript"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2025-10-22T02:53:39.556395Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/reema/htmlcov/status.json" added="2025-10-22T02:53:45.374576Z" modified="2025-10-22T02:53:45.374588Z" visited="2025-10-22T02:53:45.374577Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/json"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;env BAMF_DESKTOP_FILE_HINT=/var/lib/snapd/desktop/applications/firefox_firefox.desktop /snap/bin/firefox %u&apos;" modified="2025-10-22T02:53:45.374583Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>

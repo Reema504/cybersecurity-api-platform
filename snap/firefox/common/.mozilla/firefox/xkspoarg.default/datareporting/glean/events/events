@@ -1,1 +1,2 @@
 {"timestamp":18656260,"category":"downloads","name":"added_file_extension","extra":{"glean_timestamp":"1761090019924","value":"json"}}
+{"timestamp":29895926,"category":"urlbar","name":"engagement","extra":{"n_chars":"26","sap":"urlbar","n_words":"1","interaction":"typed","engagement_type":"enter","results":"url","groups":"heuristic","provider":"HeuristicFallback","n_results":"1","selected_position":"1","search_mode":"","glean_timestamp":"1761101650555","actions":"none","selected_result":"url","search_engine_default_id":"google-ubuntu-sn","available_semantic_sources":"none"}}
