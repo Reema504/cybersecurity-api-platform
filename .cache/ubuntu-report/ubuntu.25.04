@@ -1,0 +1,71 @@
+{
+  "Version": "25.04",
+  "OEM": {
+    "Vendor": "innotek GmbH",
+    "Product": "VirtualBox",
+    "Family": "Virtual Machine"
+  },
+  "BIOS": {
+    "Vendor": "innotek GmbH",
+    "Version": "VirtualBox"
+  },
+  "Arch": "amd64",
+  "HwCap": "x86-64-v2",
+  "GPU": [
+    {
+      "Vendor": "15ad",
+      "Model": "0405"
+    }
+  ],
+  "RAM": 3.5,
+  "Disks": [
+    54.2
+  ],
+  "Partitions": [
+    51.8
+  ],
+  "Screens": [
+    {
+      "Size": "0mmx0mm",
+      "Resolution": "1280x800",
+      "Frequency": "59.81"
+    }
+  ],
+  "Autologin": false,
+  "LivePatch": false,
+  "Session": {
+    "DE": "ubuntu:GNOME",
+    "Name": "ubuntu",
+    "Type": "wayland"
+  },
+  "Language": "en_US",
+  "Timezone": "Asia/Riyadh",
+  "Install": {
+    "Type": "Flutter",
+    "OEM": false,
+    "Media": "Ubuntu 25.04",
+    "Stages": {
+      "4": "locale",
+      "81": "accessibility",
+      "87": "keyboard",
+      "90": "network",
+      "91": "refresh",
+      "92": "tryOrInstall",
+      "100": "tryOrInstall",
+      "101": "autoinstall",
+      "104": "sourceSelection",
+      "105": "codecsAndDrivers",
+      "117": "storage",
+      "130": "identity",
+      "151": "timezone",
+      "152": "confirm",
+      "155": "install",
+      "1056": "done"
+    },
+    "Language": "en",
+    "Minimal": true,
+    "RestrictedAddons": true,
+    "PartitionMethod": "use_device",
+    "UseActiveDirectory": false
+  }
+}
