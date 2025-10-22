@@ -47,13 +47,10 @@ Example Ping Result (`/ping/google.com`):
 {
 "hostname": "google.com",
 "output": "PING google.com (142.250.184.142) 56(84) bytes of data.\n64 bytes from lhr48s23-in-f14.1e100.net (142.250.>"
-}
 
 
 
-
-
-## Security Assurance: Command Injection Prevention
+} ## Security Assurance: Command Injection Prevention
 
 The platform is secured against Command Injection vulnerabilities. This critical security measure is achieved by strictly adhering to Python's best practices for running system commands:
 
