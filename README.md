@@ -50,8 +50,11 @@ Example Ping Result (`/ping/google.com`):
 
 
 
-} ## Security Assurance: Command Injection Prevention
+}
 
+
+
+## Security Assurance: Command Injection Prevention
 The platform is secured against Command Injection vulnerabilities. This critical security measure is achieved by strictly adhering to Python's best practices for running system commands:
 
 * **1. Strict Subprocess Usage:** All system commands (ping, nmap) are executed using subprocess.run().
