@@ -1,3 +1,4 @@
+
 amqp==5.3.1
 annotated-types==0.7.0
 anyio==4.11.0
@@ -40,3 +41,9 @@ vine==5.1.0
 watchfiles==1.1.0
 wcwidth==0.2.14
 websockets==15.0.1
+=======
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+
