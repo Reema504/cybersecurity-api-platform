@@ -51,15 +51,6 @@ Here are the available API endpoints:
   "output": "PING google.com (142.250.184.142) 56(84) bytes of data.\n64 bytes from lhr48s23-in-f14.1e100.net (142.250.184.142): icmp_seq=1 ttl=116 time=5.69 ms\n..."
 }
 
-## Security Assurance: Command Injection Prevention
-
-The platform is secured against Command Injection vulnerabilities. This critical security measure is achieved by strictly adhering to Python's best practices for running system commands:
-
-1.  **Strict Subprocess Usage:** All system commands (`ping`, `nmap`) are executed using `subprocess.run()`.
-2.  **Shell=False (Default):** The `shell=True` parameter is explicitly avoided. This ensures that user inputs (like the hostname) are passed as isolated **arguments** to the command, and are never interpreted as executable shell code.
-3.  **Input Segregation:** Inputs are passed as a list of arguments, preventing concatenation of user input with system commands.
-
-
 ## Code Quality & Test Coverage
 
 To guarantee code reliability and compensate for potential human errors, this project maintains rigorous test coverage. This is essential for ensuring code stability and maintainability in a production environment.

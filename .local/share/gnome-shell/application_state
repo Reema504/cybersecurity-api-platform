@@ -4,8 +4,8 @@
     <application id="snap-store_snap-store.desktop" score="11.5" last-seen="1760443353"/>
     <application id="org.gnome.Nautilus.desktop" score="63.25" last-seen="1761101630"/>
     <application id="gnome-initial-setup.desktop" score="0.25" last-seen="1759932719"/>
-    <application id="firefox_firefox.desktop" score="22901.75" last-seen="1761104316"/>
-    <application id="org.gnome.Terminal.desktop" score="5794.5" last-seen="1761104343"/>
+    <application id="firefox_firefox.desktop" score="22923.75" last-seen="1761104775"/>
+    <application id="org.gnome.Terminal.desktop" score="5832.5" last-seen="1761104765"/>
     <application id="snapd-desktop-integration_snapd-desktop-integration.desktop" score="0" last-seen="0"/>
     <application id="apport-gtk.desktop" score="2.75" last-seen="1760442629"/>
     <application id="update-manager.desktop" score="6" last-seen="1761076297"/>
